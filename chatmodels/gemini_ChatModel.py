@@ -10,4 +10,4 @@ model = init_chat_model(
 
 response = model.invoke("What is an Embedding Model?")
 
-print(response.content[0]["text"])
+print(response.content[0]["text"]) # get the first item (dictionary) from the response.content, then get the value stored under the "text" key:
