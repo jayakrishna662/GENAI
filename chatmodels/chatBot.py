@@ -5,17 +5,23 @@ from dotenv import load_dotenv
 load_dotenv()
 
 from langchain.chat_models import init_chat_model
-from langchain.messages import AIMessage, HumanMessage
+from langchain.messages import AIMessage, HumanMessage, SystemMessage
 
 # HumanMessage => Represents a message from the user.
 # AIMessage => Represents a message from the AI.
+# SystemMessage => Represents instructions given to the AI.
 
 model = init_chat_model(
     "groq:openai/gpt-oss-20b",
     temperature=0.5,             
 )
 
-messages=[] # This list will store entire conversation.
+# This list will store entire conversation.
+messages=[
+    SystemMessage(
+    content="You are a Python tutor. Explain concepts in simple language with examples."
+)
+]
 
 print("Welcome")
 print("Type Exist to Stop.\n")
