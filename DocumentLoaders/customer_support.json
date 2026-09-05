@@ -1,0 +1,23 @@
+[
+    {
+        "customer_id": 101,
+        "name": "Rahul",
+        "issue": "Charged twice for an order",
+        "category": "Billing",
+        "sentiment": "Negative"
+    },
+    {
+        "customer_id": 102,
+        "name": "Priya",
+        "issue": "Cannot reset my password",
+        "category": "Account",
+        "sentiment": "Negative"
+    },
+    {
+        "customer_id": 103,
+        "name": "Arun",
+        "issue": "I want to track my order",
+        "category": "Order",
+        "sentiment": "Neutral"
+    }
+]
