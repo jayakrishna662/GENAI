@@ -1,0 +1,5 @@
+customer_id,name,issue,category,sentiment
+101,Rahul,Charged twice for an order,Billing,Negative
+102,Priya,Cannot reset my password,Account,Negative
+103,Arun,I want to track my order,Order,Neutral
+104,Sneha,The support team resolved my problem quickly,Support,Positive
