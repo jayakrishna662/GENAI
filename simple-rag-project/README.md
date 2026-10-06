@@ -35,7 +35,6 @@ Final Answer
 - Google Gemini
 - Gemini Embeddings
 - Chroma
-- python-dotenv
 
 ## Project Structure
 
