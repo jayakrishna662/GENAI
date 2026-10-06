@@ -1,0 +1,17 @@
+# langchain-community provides integrations that allow LangChain applications to work with external data sources,
+# databases, vector stores, and other tools.
+langchain-community==0.4.2
+
+# LangChain text splitting utilities
+langchain-text-splitters==1.1.2
+
+# Google Gemini integration for LangChain
+# Used for generating embeddings
+langchain-google-genai==4.3.5
+
+
+# Loads environment variables from .env
+python-dotenv==1.2.3
+
+# Chroma vector store integration for LangChain
+langchain-chroma==1.1.0
